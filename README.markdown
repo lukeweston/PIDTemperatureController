@@ -21,7 +21,11 @@ Note that a relay with a 5 V coil must be used.
 This also means that if the user is not comfortable with wiring mains voltage, they can use a pre-assembled relay-type device or have a more experienced person wire up the relay externally,
 and simply connect up the low-voltage coil wires to the controller.
 
-External unregulated DC power (around 7-15 V DC) is provided to the board via a standard DC barrel connector.
+External unregulated DC power (around 7-15 V DC) is provided to the board via a standard DC barrel connector, and regulated down to 5 V on the board..
 
 A small "prototyping area" is also provided on the PCB.
+
+This board does contain a number of surface mount components. However, the resistors and capacitors are relatively large (0805), and there is only one IC, a SOIC 8-pin IC.
+Therefore, this board is relatively easy to assemble, as far as surface mount based designs go. As such, it's a nice project to test a new SMD reflow oven or hotplate with, or, alternatively,
+it's relatively easy to solder by hand.
 
